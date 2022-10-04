@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 50px;
+}
+
+.writting {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.textinput {
+  resize: none;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.right {
+  width: 25%;
+  padding-top: 12rem;
+}
+
+.left {
+  width: 50%;
+  margin-left: 13rem;
+}
+
+.submit {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  height: 2em;
+  width: 4em;
+  padding: 1px;
+  border-radius: 50px;
+  border-width: 3px;
+}
+
+.Character,
+.Words {
+  font-family: "Libre Baskerville", serif;
+  padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .textinput {
+    width: 500px;
+  }
+  .left {
+    margin: 10px;
+  }
+  .right {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
